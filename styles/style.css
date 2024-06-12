@@ -243,7 +243,7 @@
 }
 
 .person_name_feynman {
-  top: 0;
+  top: -30px;
   left: 319px;
 }
 
@@ -264,7 +264,7 @@
 
 .person_name_tarter {
   top: 79px;
-  left: 149px;
+  left: 159px;
 }
 
 .person__image {
