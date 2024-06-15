@@ -349,7 +349,6 @@
 
 .footer__column_content_hours {
   margin-left: auto;
-
 }
 
 .footer__column_content_social {
@@ -375,25 +374,31 @@
 
 .footer__list-item {
   list-style-type: none;
+  margin-bottom: 16px;
 }
 
-.footer__list-item:nth-last-child(1){
-  padding-top: 16px;
+.footer__list-item:nth-last-child(1) {
+  margin-bottom: 0;
 }
 
 .footer__column-link {
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  line-height: 20px;
-  text-align: right;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  line-height: 0;
+}
+
+.footer__column-link p {
+  margin: 0;
+  padding: 0;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
-  vertical-align: middle;
 }
 
 .footer__copyright {
